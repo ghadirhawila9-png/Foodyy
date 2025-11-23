@@ -28,3 +28,34 @@
   line-height: 1.8;
 }
 
+/* mobile */
+@media (max-width: 768px) {
+  .about-content {
+    padding: 20px; 
+  }
+
+  .about-content h1 {
+    font-size: 1.8rem; 
+  }
+
+  .about-content p {
+    font-size: 1rem; 
+    line-height: 1.6;
+  }
+}
+
+/* desktop*/
+@media (min-width: 1200px) {
+  .about-content {
+    max-width: 900px; 
+    padding: 60px;
+  }
+
+  .about-content h1 {
+    font-size: 3rem;
+  }
+
+  .about-content p {
+    font-size: 1.3rem;
+  }
+}

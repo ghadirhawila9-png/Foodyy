@@ -120,6 +120,58 @@
   background-color: #2980b9;
 }
 
+/*mobile*/
+@media (max-width: 768px) {
+  .soups-page {
+    padding: 20px;
+  }
 
+  .soups-page-title {
+    font-size: 1.5rem;
+  }
+
+  .soups-post-form textarea {
+    width: 90%; 
+    height: 100px;
+    font-size: 0.9rem;
+  }
+
+  .soups-post-form button {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .soups-recipe-card {
+    width: 90%; 
+    padding: 15px;
+  }
+
+  .soups-recipe-title {
+    font-size: 1.2rem;
+  }
+
+  .soups-recipe-list li,
+  .soups-recipe-content p {
+    font-size: 0.9rem;
+  }
+}
+/*desktop*/
+
+@media (min-width: 1200px) {
+  .soups-page {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .soups-recipe-card {
+    width: 50%; 
+  }
+
+  .soups-recipes-feed {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 
 

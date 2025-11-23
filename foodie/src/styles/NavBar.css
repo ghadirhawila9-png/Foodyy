@@ -81,3 +81,62 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* mobile */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; 
+    padding: 10px 20px;
+  }
+
+  .navbar-left {
+    position: static; 
+    margin-bottom: 10px;
+  }
+
+  .logo-img {
+    height: 40px; 
+  }
+
+  .navbar-center {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .categories-info {
+    font-size: 0.85rem;
+    margin-bottom: 6px;
+  }
+
+  .dropbtn {
+    width: 100%; 
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  .dropdown-content {
+    position: static; 
+    min-width: 100%;
+    box-shadow: none;
+    border-radius: 0;
+  }
+}
+
+/* desktop */
+@media (min-width: 1200px) {
+  .navbar {
+    padding: 20px 60px;
+  }
+
+  .logo-img {
+    height: 60px;
+  }
+
+  .categories-info {
+    font-size: 1rem;
+  }
+
+  .dropbtn {
+    padding: 8px 16px;
+  }
+}
