@@ -1,0 +1,126 @@
+.meals-page {
+  padding: 40px;
+  text-align: center;
+  background-color: #e6f670; 
+}
+
+.meals-page-title {
+  font-size: 2rem;
+  color: #414e04;
+  margin-bottom: 20px;
+}
+
+.meals-post-form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.meals-post-form textarea {
+  width: 60%;
+  height: 80px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid black;
+  font-size: 1rem;
+  margin: 0 auto;
+}
+
+.meals-post-form button {
+  width: 150px;
+  margin: 0 auto;
+  padding: 8px 16px;
+  background-color: #a5ce1d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.meals-post-form button:hover {
+  background-color: #282b02;
+}
+
+.meals-recipes-feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.meals-recipe-card {
+  background-color: #fff;
+  border: 2px solid #414e04;
+  border-radius: 12px;
+  padding: 20px;
+  width: 60%;
+  margin: 15px auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.meals-recipe-title {
+  font-family: "Georgia", serif;
+  font-size: 1.5rem;
+  color: #414e04;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+
+
+.meals-recipe-list {
+  list-style-type: disc; 
+  padding-left: 20px;
+}
+
+.meals-recipe-list li {
+  font-size: 1rem;
+  color: #333;
+  margin: 5px 0;
+}
+
+
+.meals-recipe-content p {
+  font-size: 1rem;
+  color: #333;
+  margin: 5px 0;
+}
+
+
+.delete-btn {
+  margin-top: 10px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+
+.search-form {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.search-form button {
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #2980b9;
+}
+
+
+

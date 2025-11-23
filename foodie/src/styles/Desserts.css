@@ -1,0 +1,125 @@
+.desserts-page {
+  padding: 40px;
+  text-align: center;
+  background-color:#e9cee5; 
+}
+
+.desserts-title {
+  font-size: 2rem;
+  color:#ea3fb1;
+  margin-bottom: 20px;
+}
+
+.desserts-post-form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.desserts-post-form textarea {
+  width: 60%;
+  height: 80px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #ea3fb1;
+  font-size: 1rem;
+  margin: 0 auto;
+}
+
+.desserts-post-form button {
+  width: 150px;
+  margin: 0 auto;
+  padding: 8px 16px;
+  background-color: #ea3fb1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.desserts-post-form button:hover {
+  background-color: #680753;
+}
+
+.desserts-recipes-feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.desserts-recipe-card {
+  background-color: #fff;
+  border: 2px solid #ea3fb1;
+  border-radius: 12px;
+  padding: 20px;
+  width: 60%;
+  margin: 15px auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+
+.desserts-recipe-title {
+  font-family: "Georgia", serif;
+  font-size: 1.5rem;
+  color: #ea3fb1;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+
+
+
+
+.desserts-recipe-list li {
+  font-size: 1rem;
+  color: #333;
+  margin: 5px 0;
+}
+
+
+.desserts-recipe-content p {
+  font-size: 1rem;
+  color: #333;
+  margin: 5px 0;
+}
+
+
+.delete-btn {
+  margin-top: 10px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+
+
+
+.search-form {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.search-form button {
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #2980b9;
+}
+
+
